@@ -1,0 +1,58 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { ArrowDown } from "lucide-react";
+import { OptimizedImage } from "@/components/optimized-image";
+import { heroImages } from "@/lib/images";
+
+export function HeroSection() {
+  const scrollToServices = () => {
+    const element = document.getElementById("sherbimet");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <section className="relative h-screen w-full overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <OptimizedImage
+          src={heroImages.main.url}
+          alt={heroImages.main.alt}
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0B2341]/90 to-transparent"></div>
+      </div>
+
+      {/* Content Container */}
+      <div className="relative z-10 h-full flex flex-col justify-center items-center px-4 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="max-w-3xl"
+        >
+          <h1 className="text-[#D4AF37] text-5xl md:text-6xl font-bold mb-4">
+            Union Enterier
+          </h1>
+          <h4 className="text-white text-xl md:text-xl font-medium mb-2">
+            Dekada Eksperiencë – Ekselencë në Çdo Detaj
+          </h4>
+          <Button
+            onClick={scrollToServices}
+            className="mt-8 bg-[#D4AF37] text-[#0B2341] hover:bg-[#D4AF37]/90 font-semibold px-6 rounded-lg"
+          >
+            Zbuloni Shërbimet
+            <ArrowDown className="ml-2 h-5 w-5" />
+          </Button>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
