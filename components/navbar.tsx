@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { ThemeToggle } from "./theme-toggle";
 import { cn } from "@/lib/utils";
-import { Building2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,9 +50,16 @@ export function Navbar() {
         className="container mx-auto px-4 flex justify-between items-center"
       >
         <Link href="#" className="flex items-center">
-          <Building2 className="h-8 w-8 text-[#D4AF37] mr-2" />
-          <span className="text-white font-bold text-xl">Union Enterier</span>
-        </Link>
+        <Image
+            src="https://res.cloudinary.com/dfi2vdemb/image/upload/v1749677375/lOGO_WEB_PNG-11_u5yb6v.png"
+            alt="Union Enterier Logo"
+            width={148}
+            height={40}
+            className="h-[2.65rem] w-auto"
+            priority
+          />
+      </Link>
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8 items-center">
@@ -107,7 +114,7 @@ export function Navbar() {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-[#0B2341] border-t border-[#D4AF37]/20"
           >
-            <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+            <div className="container px-4 py-4 flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.label}

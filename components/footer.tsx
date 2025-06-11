@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Building2, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -9,12 +10,15 @@ export function Footer() {
           {/* Column 1: Logo and Motto */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center mb-4">
-              <Building2 className="h-10 w-10 text-[#D4AF37] mr-2" />
-              <span className="text-white font-bold text-xl">Union Enterier</span>
+            <Image
+            src="https://res.cloudinary.com/dfi2vdemb/image/upload/v1749677375/lOGO_WEB_PNG-11_u5yb6v.png"
+            alt="Union Enterier Logo"
+            width={148}
+            height={40}
+            className="h-[2.65rem] w-auto"
+            priority
+          />
             </div>
-            <p className="text-[#D4AF37] text-sm italic mb-4">
-              Ekselencë në Çdo Detaj
-            </p>
           </div>
 
           {/* Column 2: Quick Links */}
@@ -86,7 +90,7 @@ export function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-[#D4AF37]" />
-                <p>unionenterier2000@gmail.com</p>
+                <p>info@unionenterier.com</p>
               </div>
             </div>
           </div>

@@ -72,7 +72,7 @@ export function PortfolioSection() {
       ],
       year: "2022-2023",
       mainImage: hotelprishtinamain,
-      additionalImages: [hotelprishtinamain, hotelprishtina1, hotelprishtina2, hotelprishtina3],
+      additionalImages: [hotelprishtina1, hotelprishtina2, hotelprishtina3],
     },
     {
       id: 2,
@@ -103,7 +103,7 @@ export function PortfolioSection() {
       ],
       year: "2023",
       mainImage: exdcmain,
-      additionalImages: [exdcmain, exdc1],
+      additionalImages: [exdc1],
     },
     {
       id: 4,
@@ -115,7 +115,7 @@ export function PortfolioSection() {
       ],
       year: "2020-2021",
       mainImage: komunamain,
-      additionalImages: [komunamain, komuna1],
+      additionalImages: [komuna1],
     },
     {
       id: 5,
@@ -140,7 +140,7 @@ export function PortfolioSection() {
       ],
       year: "2023",
       mainImage: gjakovamain,
-      additionalImages: [gjakovamain, gjakova1],
+      additionalImages: [gjakova1],
     }
   ];
 

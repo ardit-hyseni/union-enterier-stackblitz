@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import { OptimizedImage } from "@/components/optimized-image";
 import { heroImages } from "@/lib/images";
+import Image from 'next/image';
 
 export function HeroSection() {
   const scrollToServices = () => {
@@ -18,14 +19,13 @@ export function HeroSection() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <OptimizedImage
-          src={heroImages.main.url}
-          alt={heroImages.main.alt}
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
+        
+      <Image
+        src={`https://res.cloudinary.com/dfi2vdemb/image/upload/v1749675504/union-enterier-hero-compressed_ecvg46.png`}
+        alt={`Union Enterier`}
+        fill
+        className="object-cover"
+      />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0B2341]/90 to-transparent"></div>
       </div>

@@ -6,7 +6,7 @@ const nextConfig = {
   },
   images: { 
     unoptimized: true,
-    domains: ['images.pexels.com'],
+    domains: ['res.cloudinary.com'],
   },
 };
 

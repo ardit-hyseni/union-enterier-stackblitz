@@ -146,7 +146,7 @@ export function ContactSection() {
                     <Mail className="h-6 w-6 text-[#D4AF37] flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-semibold mb-1">Email</h4>
-                      <p className="text-gray-300">unionenterier2000@gmail.com</p>
+                      <p className="text-gray-300">info@unionenterier.com</p>
                     </div>
                   </div>
                 </div>
