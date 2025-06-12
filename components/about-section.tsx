@@ -57,9 +57,6 @@ export function AboutSection() {
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               Vlerat tona themelore janë cilësia, integriteti dhe profesionalizmi. Çdo projekt që ne marrim përsipër realizohet me vëmendje të veçantë ndaj detajeve dhe cilësisë së materialeve të përdorura.
             </p>
-            <p className="text-gray-600 dark:text-gray-300">
-              Sot, Union Enterier është një nga kompanitë kryesore në Kosovë për fasada termike, punime gipsi, dhe renovime të gjithanshme, me projekte të realizuara në të gjithë vendin dhe jashtë kufijve.
-            </p>
           </motion.div>
 
           <motion.div
