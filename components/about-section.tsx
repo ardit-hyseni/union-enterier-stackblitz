@@ -33,8 +33,8 @@ export function AboutSection() {
     },
     {
       year: "2025",
-      title: "Arritje e re",
-      description: "Mbi 130 punëtorë aktivë dhe realizimi i projekteve me sipërfaqe totale mbi 100,000 m²",
+      title: "Rritje e qëndrueshme",
+      description: "Vazhdim i zgjerimit me staf të specializuar dhe realizimi i projekteve të mëdha ndërtimore në përputhje me standardet më të larta të industrisë.",
     },
   ];
 
