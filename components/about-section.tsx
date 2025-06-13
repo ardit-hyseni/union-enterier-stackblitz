@@ -52,7 +52,7 @@ export function AboutSection() {
               Rreth Nesh
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Union Enterier është një kompani ndërtimi me bazë në Prishtinë, Kosovë, me dekada përvojë në industrinë e ndërtimit. Që nga themelimi në vitin 2000, kemi rritur ekipin tonë nga një biznes i vogël familjar në një kompani me mbi 130 punëtorë të specializuar në fusha të ndryshme të ndërtimit.
+              Union Enterier është një kompani ndërtimi me bazë në Prishtinë, Kosovë, me dekada përvojë në industrinë e ndërtimit. Që nga themelimi në vitin 2000, kemi rritur ekipin tonë nga një biznes i vogël familjar në një ekip të gjerë profesionistësh të specializuar në fusha të ndryshme të ndërtimit.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               Vlerat tona themelore janë cilësia, integriteti dhe profesionalizmi. Çdo projekt që ne marrim përsipër realizohet me vëmendje të veçantë ndaj detajeve dhe cilësisë së materialeve të përdorura.
